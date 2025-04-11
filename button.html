@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+</head>
+<body>
+    <form action="/server">
+        <label for="username">username</label>
+        <input type="text" 
+         placeholder="enter username"
+         id="username" 
+         name="given username"/> <!--name attribute gives the location after submit the page-->
+    <div>
+        <button>Submit</button> <!--it goes to the server-->
+        <button type="button">hello</button> <!--it only creates button-->
+        <button type="reset">reset</button> <!-- it reset all the entered values-->
+    </div>
+    <input type="button" value="click me"></input> 
+    <input type="submit" value="click me2"/>
+    </form>
+
+    <hr/>
+    <form action="https://www.youtube.com/results?">
+       <input type="text" placeholder="search on youtube" name="search_query"/>
+       <button>search</button>
+    </form>
+</body>
+</html>
